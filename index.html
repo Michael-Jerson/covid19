@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/iconph.png">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====Font Awesome== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ph Covid Stats</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo"><strong>Live Stats</strong></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+
+        <!--===== HOME =====-->
+        <section class="work section" id="home">
+            <h2 class="section-title">PH Live Stats Counts</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="" class="image">
+
+                    <div class="text">
+                        <h3><strong>Active Cases</strong></h3>
+                        <span id="active"><strong>0</strong></span> </div>
+
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="">
+                    <div class="text">
+                        <h3><strong>Total Cases</strong></h3>
+                        <span id="cases"><strong>0</strong></span></div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="">
+                    <div class="text">
+                        <h3><strong>Critical Cases</strong></h3>
+                        <span id="critical"><strong>0</strong></span></div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="">
+                    <div class="text">
+                        <h3><strong>Total Deaths</strong></h3>
+                        <span id="death"><strong>0</strong></span></div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="">
+                    <div class="text">
+                        <h3><strong>Recovery Cases</strong></h3>
+                        <span id="recovered"><strong>0</strong></span></div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/bgg.jpg" alt="">
+                    <div class="text">
+                        <h3><strong>Total Test Done</strong></h3>
+                        <span id="tests"><strong>0</strong></span></div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/corona.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Covid 19 Live Stats</h2>
+                    <p class="about__text">Live Stats of Covid 19 in the Phillippines using a Free Web API. You can find the web API<a href="https://corona.lmao.ninja/v2/countries/philippines">&nbsphere,</a> and Code of this project <a href="">here.</a></p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Covid 19 Live Stats</p>
+
+
+            <p class="footer__copy">&#169; 2020 copyright all right reserved</p>
+            <div class="footer__social">
+                <a href="https://www.github.com" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.google.com" class="footer__icon"><i class='bx bxl-google' ></i></a>
+                <a href="https://www.linkedin.com/" class="footer__icon"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <!--====Web API====-->
+        <script src="assets/js/webapi.js"></script>
+</body>
+
+</html>
