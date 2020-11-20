@@ -4,8 +4,8 @@ fetch('https://corona.lmao.ninja/v2/countries/philippines')
     })
     .then((data) => {
 
-        //document.getElementById("flag").src = data.countryInfo.flag;
-        //document.getElementById("country").innerHTML = data.country;
+        //document.getElementById("flag").src = data.countryInfo.flag; /*---==uncomment to display flag info==---*/
+        //document.getElementById("country").innerHTML = data.country; /*---==uncomment to display country info==---*/
         document.getElementById("cases").innerHTML = data.cases;
         document.getElementById("critical").innerHTML = data.critical;
         document.getElementById("death").innerHTML = data.deaths;
